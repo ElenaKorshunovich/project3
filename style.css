@@ -32,16 +32,20 @@ h1{
     margin: 30px;
     width: 60%;
 }
+html{
+    --border-bottom: var(1px solid #737373);
+}
 .first-group{
-    border-bottom: 1px solid #737373;
+    border-bottom:var(--border-bottom);
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 label{
     margin-bottom: 10px;
 }
 :root{
-    --color-h2:var(#171717)
+    --color-h2:var(#171717);
 }
 h2{
     color:--color-h2;
@@ -64,11 +68,14 @@ h2{
     border-radius: 5px;
     font-size: 16px;
     height: 35px;
+    margin-top: 10px;
 }
 .second-group{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px 0;
+    border-bottom: var(--border-bottom);
 }
 .checkbox{
     appearance: none;
