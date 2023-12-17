@@ -24,33 +24,55 @@
                             <div class="first-group"> <!--первые формы-->
                                 <div>
                                     <label for="name1">Имя</label>
-                                      <input type="text" name="firstname" id="name1"/>
+                                    <input type="text" name="firstname" id="name1" class="input-first-group"/>
                                 </div>
                                 <div>
                                     <label for="name2">Фамилия</label>
-                                      <input type="text" name="secondname" id="name2"/>
+                                    <input type="text" name="secondname" id="name2" class="input-first-group"/>
                                 </div>
                                 <div>
                                     <label for="mail">Email</label>
-                                    <input type="text" name="email" id="mail"/>
+                                    <input type="text" name="email" id="mail" class="input-first-group"/>
                                 </div>
                                 <div>
                                     <label for="ph">Телефон</label>
-                                    <input type="number" name="phone" id="ph"/>
+                                    <input type="number" name="phone" id="ph" class="input-first-group"/>
                                 </div>
                             </div>  <!--первые формы-->
                             <h2>Адрес доставки</h2>
+                            <div class="second-group">
+                                <div>
+                                    <label for="count">Страна</label>
+                                    <input type="text" name="country" id="count" class="input-second-group"/>
+                                </div>
+
+                                <div>
+                                    <label for="cit">Город</label>
+                                    <input type="text" name="city" id="cit" class="input-second-group"/>
+                                </div>
+
+                                <div>
+                                    <label for="index">Почтовый индекс</label>
+                                    <input type="number" name="postcode" id="index" class="input-second-group"/>
+                                </div>
+                                <div>
+                                    <label for="address">Адрес доставки (улица, дом, квартира)</label>
+                                    <input type="number" name="mailing address" id="address" class="input-second-group"/>
+                                </div>
+                            </div>
                             <h2>Уведомлять об акциях и скидках</h2>
                             <p class="notification">Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p>
-                            <div class="second-group">
+                            <div class="third-group">
                         
-                                <div><input type="checkbox" class="checkbox"/>
+                                <div class="chec">
+                                    <input type="checkbox" class="checkbox"/>
                                 <label>По Email</label></div>
 
-                                <div><input type="checkbox" class="checkbox"/>
+                                <div class="chec">
+                                    <input type="checkbox" class="checkbox"/>
                                 <label>По SMS</label></div>
 
-                                <div><input type="checkbox" class="checkbox"/>
+                                <div class="chec"><input type="checkbox" class="checkbox"/>
                                 <label>Push-уведомления в приложении</label></div>
 
                             </div>
